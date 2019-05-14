@@ -1,2 +1,2 @@
 # Doctool_config_repo
-config file of DocTool
+config server for DocTool
