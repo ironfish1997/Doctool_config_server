@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: config
+  cloud:
+    bus:
+      trace:
+        enabled: true
+    config:
+      server:
+        git:
+          uri: https://github.com/ironfish1997/Doctool_config_repo
+          username: 1481980097@qq.com
+          password: 19970721coOL
+  rabbitmq:
+    host: 120.79.79.151
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    service-url:
+      DefaultZone: http://localhost:8761/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh, bus-env
+server:
+  port: 8091
