@@ -9,8 +9,8 @@ spring:
       server:
         git:
           uri: https://github.com/ironfish1997/Doctool_config_repo
-          username: 1481980097@qq.com
-          password: 19970721coOL
+          username: xxxx
+          password: xxxx
   rabbitmq:
     host: 120.79.79.151
     port: 5672
